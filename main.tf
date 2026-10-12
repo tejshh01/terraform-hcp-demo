@@ -4,7 +4,7 @@ terraform {
   cloud {
         organization = "terraform-kyndryl"
     workspaces {
-      name = "kryndryl-oct"
+      name = "terraform-hcp-demo"
     }
   }
 
