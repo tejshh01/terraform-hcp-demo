@@ -43,6 +43,6 @@ resource "aws_instance" "web" {
   instance_type = "t3.micro"
   count = 3
   tags = {
-    Name = "HelloWorld-${count.index}"
+    Name = "HelloWorld-${count.index}-tejas"
   }
 }
